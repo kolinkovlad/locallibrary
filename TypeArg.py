@@ -19,4 +19,3 @@ def foo(*a):
 #        print(pg[0])
 
 print(foo("powefkwpoefk"))
-##

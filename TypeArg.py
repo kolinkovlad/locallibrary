@@ -15,7 +15,7 @@ def foo(*a):
         print("Змінна: float")
     else: 
         print("Змінна: НЕВІДОМА!")
-#   for v in range(0, vv):
+##   for v in range(0, vv):
 #        print(pg[0])
 
 print(foo("powefkwpoefk"))

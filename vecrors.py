@@ -55,3 +55,6 @@ print("Y coord of Vector2 is ", vector2['y'])
 print(len(vector2))
 
 vector2(2, 4, 'Some string', g=3, rez = "asd")
+print(vector2['x'])
+print(vector2['y'])
+print(vector2)

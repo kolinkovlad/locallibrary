@@ -1,3 +1,6 @@
+def some_func():
+    pass
+
 
 class Point:
     from math import sqrt, pow
@@ -12,14 +15,15 @@ class Point:
         return self.sqrt(self.pow(self.x - other.x, 2) + self.pow(self.y - other.y, 2))
 
 
-pset1 = Point(1, - 2)
+if __name__ == "__main__":
+    pset1 = Point(1, - 2)
 
-pset2 = Point(2, 4)
+    pset2 = Point(2, 4)
 
-print(pset1.origin_distance())
+    print(pset1.origin_distance())
 
-distance2 = pset2.origin_distance()
-print(pset2.origin_distance())
+    distance2 = pset2.origin_distance()
+    print(pset2.origin_distance())
 
-print(pset1.distance(pset2))
+    print(pset1.distance(pset2))
 

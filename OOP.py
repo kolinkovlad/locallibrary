@@ -35,3 +35,4 @@ new_var.additional_var = "bla-bla"
 # print(new_var.last_name)
 print(new_var.info())
 
+

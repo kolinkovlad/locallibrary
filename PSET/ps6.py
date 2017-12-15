@@ -222,3 +222,4 @@ message = Message(get_story_string())
 
 print(message.get_message_text())
 print(message.get_valid_words())
+
